@@ -1,0 +1,84 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img {               
+    border: 4mm ridge rgb(83, 142, 161);
+    box-shadow: 0 0 0 1rem yellowgreen;
+}
+body{
+    
+    background-image: url("ff.png");
+    
+}
+.text1{
+    font-family:fantasy;
+    font-size:6ch;
+    position: absolute;
+  top: 140px;;
+  left: 250px;
+}
+.centered{
+    font-family:cursive;
+    font-size:2.4ch;
+    position: absolute;
+  top: 260px;;
+  left: 100px;
+  background-color: purple;
+}
+.bodyImg{
+    background-color:plum;
+}
+.grid img{
+    border: 2px solid;
+    border-radius: 50;
+    background-color:palevioletred;
+}
+.origamis{
+    border-radius: 10000px;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    background-color:lightseagreen;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.origamis:hover{
+   opacity: 0.5;
+
+}
+.text1:hover{
+    transform: scale(1.4);
+   
+}
+.text1{
+    text-decoration-line:underline;
+}
+.ori{
+    text-decoration-line:underline;
+}
+.centered:hover {
+    transform: scale(1.3);
+}
+.ori:hover {
+    transform: scale(1.3);
+}
+.origamis p {
+   opacity: 0;
+}
+.origamis:hover p {
+    opacity: 1.9;
+    
+ }
